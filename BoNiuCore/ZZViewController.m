@@ -6,6 +6,7 @@
 //
 
 #import "ZZViewController.h"
+#import <BoNiuCore/BoNiuCore.h>
 
 @interface ZZViewController ()
 
@@ -16,5 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = UIColor.whiteColor;
+    NSLog(@"%@",[RXInfoHelper versionName]);
 }
+
 @end
