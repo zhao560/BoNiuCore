@@ -17,7 +17,7 @@ s.source       = { :git => "https://github.com/zhao560/BoNiuCore.git", :tag => s
 
 s.frameworks = 'UIKit', 'WebKit', 'Foundation'
 
-s.vendored_frameworks =  ['Frameworks/BoNiuCore.framework']
+s.vendored_frameworks =  ['Frameworks/RhinoXCore.framework']
 
 #s.resource = ['Frameworks/RhinoXCore.bundle']
 
