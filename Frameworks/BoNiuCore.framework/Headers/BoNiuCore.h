@@ -15,12 +15,13 @@ FOUNDATION_EXPORT const unsigned char BoNiuCoreVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <BoNiuCore/PublicHeader.h>
 
-#import <RhinoXCore/RXDeviceHelper.h>
-#import <RhinoXCore/RXInfoHelper.h>
-#import <RhinoXCore/RXSecurityUtil.h>
-#import <RhinoXCore/RXAdConfig.h>
-#import <RhinoXCore/RXSplashAdView.h>
-#import <RhinoXCore/RXRewardedVideoAd.h>
-#import <RhinoXCore/RXRewardedVideoModel.h>
-#import <RhinoXCore/RXFissionManager.h>
+#import <BoNiuCore/RXNetworkManager.h>
+#import <BoNiuCore/RXKeyChainStore.h>
+#import <BoNiuCore/RXClassInfo.h>
+#import <BoNiuCore/NSObject+RXModel.h>
+#import <BoNiuCore/RXColor.h>
+#import <BoNiuCore/RXSecurityUtil.h>
+#import <BoNiuCore/RXInfoHelper.h>
+#import <BoNiuCore/RXProgressHUD.h>
+#import <BoNiuCore/RXDeviceHelper.h>
 
