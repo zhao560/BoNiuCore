@@ -1,0 +1,6 @@
+framework module BoNiuCore {
+  umbrella header "BoNiuCore.h"
+
+  export *
+  module * { export * }
+}
