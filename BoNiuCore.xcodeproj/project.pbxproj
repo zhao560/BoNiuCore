@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04ED41D3252417B20042577E /* RhinoXCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ED41D2252417B20042577E /* RhinoXCore.framework */; };
 		04F4899B2523227000EC542E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4899A2523227000EC542E /* AppDelegate.m */; };
 		04F489A62523227100EC542E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F489A52523227100EC542E /* Assets.xcassets */; };
 		04F489A92523227100EC542E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F489A72523227100EC542E /* LaunchScreen.storyboard */; };
 		04F489AC2523227100EC542E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F489AB2523227100EC542E /* main.m */; };
 		04F489B7252322C700EC542E /* ZZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F489B6252322C700EC542E /* ZZViewController.m */; };
-		04F48B1A252343CD00EC542E /* RhinoXCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F48B19252343CD00EC542E /* RhinoXCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04ED41D2252417B20042577E /* RhinoXCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RhinoXCore.framework; sourceTree = "<group>"; };
 		04F489962523227000EC542E /* BoNiuCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoNiuCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F489992523227000EC542E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04F4899A2523227000EC542E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		04F489AB2523227100EC542E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04F489B5252322C700EC542E /* ZZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZViewController.h; sourceTree = "<group>"; };
 		04F489B6252322C700EC542E /* ZZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZViewController.m; sourceTree = "<group>"; };
-		04F48B19252343CD00EC542E /* RhinoXCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RhinoXCore.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04F48B1A252343CD00EC542E /* RhinoXCore.framework in Frameworks */,
+				04ED41D3252417B20042577E /* RhinoXCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +75,7 @@
 		04F489BB2523249400EC542E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				04F48B19252343CD00EC542E /* RhinoXCore.framework */,
+				04ED41D2252417B20042577E /* RhinoXCore.framework */,
 			);
 			path = Frameworks;
 			sourceTree = SOURCE_ROOT;
