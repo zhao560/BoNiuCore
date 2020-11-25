@@ -1,0 +1,138 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)
+// swift-module-flags: -target arm64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name WDUTMSDK
+import Alamofire
+import Swift
+import UIKit
+@_exported import WDUTMSDK
+@_inheritsConvenienceInitializers @objc public class WDTrackerPipeVisitor : ObjectiveC.NSObject {
+  @objc public static func fire()
+  @objc deinit
+  @objc override dynamic public init()
+}
+@_inheritsConvenienceInitializers @objc public class WDTrackerPipeDeactive : ObjectiveC.NSObject {
+  @objc public static func fire()
+  @objc deinit
+  @objc override dynamic public init()
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class WDTracker : ObjectiveC.NSObject {
+  @objc public static var debug: Swift.Bool
+  @objc public static var channel: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public static var app: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public static var model: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public static var page: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public static var referrer: Swift.String?
+  @objc public static var vid: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc public static func setup(channel: Swift.String)
+  @objc public static func setup(channel: Swift.String, app: Swift.String)
+  @objc public static func fire(_ key: Swift.String, extra: [Swift.String : Any]?)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class WDTrackerEventClick : ObjectiveC.NSObject {
+  @objc public static func fire(view: UIKit.UIView)
+  @objc public static func fire(barItem: UIKit.UIBarItem)
+  @objc deinit
+  @objc override dynamic public init()
+}
+@_inheritsConvenienceInitializers @objc public class WDTrackerPipeActive : ObjectiveC.NSObject {
+  @objc public static func fire()
+  @objc deinit
+  @objc override dynamic public init()
+}
+@_inheritsConvenienceInitializers @objc public class WDTrackerPipe : ObjectiveC.NSObject {
+  @objc deinit
+  @objc override dynamic public init()
+}
+@_inheritsConvenienceInitializers @objc public class WDTrackerUserLogin : ObjectiveC.NSObject {
+  @objc public static func fire()
+  @objc deinit
+  @objc override dynamic public init()
+}
+@_inheritsConvenienceInitializers @objc public class WDTrackerUserLogout : ObjectiveC.NSObject {
+  @objc public static func fire()
+  @objc deinit
+  @objc override dynamic public init()
+}
+@_inheritsConvenienceInitializers @objc public class WDTrackerUser : ObjectiveC.NSObject {
+  @objc deinit
+  @objc override dynamic public init()
+}
+@_inheritsConvenienceInitializers @objc public class WDTrackerPipeEnter : ObjectiveC.NSObject {
+  @objc public static func fire(_ vc: UIKit.UIViewController)
+  @objc deinit
+  @objc override dynamic public init()
+}
+extension UIViewController {
+  @objc dynamic public var utm_model: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc dynamic public var utm_name: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc dynamic public var utm_ignore: Swift.Bool {
+    @objc get
+    @objc set
+  }
+}
+extension UIView {
+  @objc dynamic public var utm_name: Swift.String? {
+    @objc get
+    @objc set
+  }
+  public var utm_class_name: Swift.String {
+    get
+  }
+  public var utm_path: Swift.String {
+    get
+  }
+  public var utm_content: Swift.String? {
+    get
+    set
+  }
+  @objc dynamic public var utm_ignore: Swift.Bool {
+    @objc get
+    @objc set
+  }
+}
+@_inheritsConvenienceInitializers @objc public class WDTrackerEvent : ObjectiveC.NSObject {
+  @objc deinit
+  @objc override dynamic public init()
+}
+extension UITapGestureRecognizer {
+  @objc dynamic public func utm_init(target: Any?, action: ObjectiveC.Selector?) -> UIKit.UITapGestureRecognizer
+  @objc dynamic public func utm_addTarget(_ target: Any, action: ObjectiveC.Selector)
+  @objc dynamic public func fireEvent()
+}
+@_inheritsConvenienceInitializers @objc public class WDTrackerPipeClose : ObjectiveC.NSObject {
+  @objc public static func fire()
+  @objc deinit
+  @objc override dynamic public init()
+}
+@_inheritsConvenienceInitializers @objc public class WDTrackerPipeOpen : ObjectiveC.NSObject {
+  @objc public static func fire()
+  @objc deinit
+  @objc override dynamic public init()
+}
+extension UIBarItem {
+  @objc dynamic public var utm_name: Swift.String? {
+    @objc get
+    @objc set
+  }
+}

@@ -1,0 +1,11 @@
+framework module WDUTMSDK {
+  umbrella header "WDUTMSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module WDUTMSDK.Swift {
+    header "WDUTMSDK-Swift.h"
+    requires objc
+}
